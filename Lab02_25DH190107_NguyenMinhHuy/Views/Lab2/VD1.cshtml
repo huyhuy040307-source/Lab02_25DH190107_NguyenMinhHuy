@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Định dạng văn bản</title>
+    <style type="text/css">
+        h1,#p1 {
+            background-color:mediumaquamarine;
+                color:red;
+                font-size:60;
+                text-indent:10px;
+        }
+        p{
+            background-color:antiquewhite;
+            color:yellow;
+            font-size: 20px;
+            font:bold italic;
+        }
+        .p2{
+            border:3px solid yellow;
+            background-color:brown;
+            padding:5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Highligh văn bản</h1>
+        <p>Đây là đoạn <span id="p1">văn bản</span> được highligh</p>
+        <p>Đây là đoạn <span class="p2">văn bản thứ 2</span> được highligh</p>
+    </div>
+</body>
+</html>
