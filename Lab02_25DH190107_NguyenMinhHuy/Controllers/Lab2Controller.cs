@@ -25,5 +25,9 @@ namespace Lab02_25DH190107_NguyenMinhHuy.Controllers
         {
             return View();
         }
+        public ActionResult VD5()
+        {
+            return View();
+        }
     }
 }

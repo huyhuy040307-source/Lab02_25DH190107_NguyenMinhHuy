@@ -167,6 +167,7 @@
     <Content Include="Views\Lab2\VD2.cshtml" />
     <Content Include="Views\Lab2\VD3.cshtml" />
     <Content Include="Views\Lab2\VD4.cshtml" />
+    <Content Include="Views\Lab2\VD5.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
